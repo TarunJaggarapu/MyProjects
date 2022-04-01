@@ -51,7 +51,7 @@ public static void game() {
 		System.out.println("Congrats you have guessed the right number");
 	}
 	else {
-		System.out.println("Sorry "+name+" You have lost the correct number is "+x);
+		System.out.println("Sorry "+name+" You have lost the game the correct number is "+x);
 	}}
 	catch(Exception e) {
 		System.out.println("You have to enter only numbers");
